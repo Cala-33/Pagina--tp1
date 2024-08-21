@@ -1,15 +1,14 @@
-
-body{
+body {
     margin-top: 0px;
     margin-left: 0px;
-    margin-right:0;
+    margin-right: 0;
     margin-bottom: 40px;
-    background-color:	#cc9820 ;
-    font-family: benguiat ;
+    background-color: #cc9820;
+    font-family: benguiat;
     height: 100%;
-    font-weight: bold ;
-    font-size:500% ;
-    color:#222222 ;
+    font-weight: bold;
+    font-size: 400%;
+    color: #222222;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,37 +16,43 @@ body{
     height: 1vh;
     text-align: center;
 }
+
 header {
-    text-align:center ;
-    background-color: #222222;
-    color: rgba(240, 255, 255, 0.442);
-    font-size: small;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
+
 footer {
-    text-align:center ;
+    text-align: center;
     background-color: #222222;
     color: rgba(240, 255, 255, 0.442);
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-img {max-width: 600px;
+img {
+    max-width: 600px;
     max-height: 600px;
-   
+}
+
+a {
+    margin-top: 1px;
+    font-size: 20%;
+    margin-bottom: 1px;
+    background-color: #000000;
+    color: #000000;
+    padding-top: 0px;
+    padding-bottom: 3px;
     
 }
 
-a{margin-top: 0px;
-    font-size: 30%;
-    margin-bottom: 25px;
-}
-p{
+p {
     margin-top: 25px;
-    margin-bottom:0;
-color: rgb(195, 24, 29);}
+    margin-bottom: 25px;
+    color: rgb(195, 24, 29);
+}
 
-.By{font-size:60%;
+.By {
+    font-size: 60%;
     margin-left: -15px;
 }
 
@@ -60,7 +65,7 @@ main {
     width: 50%;
 }
 
-#contenedor-posters{
+#contenedor-posters {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -68,34 +73,33 @@ main {
     margin-top: 40px;
     margin-bottom: 2px;
     gap: 30px;
-    
-    
 }
 
 .vhs {
     background-image: url(https://png.pngtree.com/png-clipart/20220924/ourmid/pngtree-film-grain-particles-texture-effect-png-image_6214662.png);
     background-position: center;
-    
+    background-color: #cc9820;
 }
 
-
-.vhs img{
+.vhs img {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
-    border: 3px solid #373636;
+    border: 2px solid #000000;
     background-repeat: no-repeat;
-    
+    transition: transform 0.3s ease; 
 }
 
-#default{
+.vhs img:hover {
+    transform: scale(1.1); 
+}
+
+#default {
     display: flex;
     justify-content: left;
     text-align: right;
-
 }
 
-
-.dogs{
+.dogs {
     background-color: antiquewhite;
     color: #222222;
     font-size: large;
@@ -103,18 +107,18 @@ main {
     text-align: center;
 }
 
-.dogs img{
+.dogs img {
     max-width: 400px;
-    max-height: 400px;}
+    max-height: 400px;
+}
 
-.back{margin-top: 30px;
+.back {
+    margin-top: 30px;
     text-align: left;
-    
-   
-
 }
-.back img{max-width: 100px;
+
+.back img {
+    max-width: 100px;
     max-height: 100px;
-   
-
 }
+
