@@ -1,24 +1,24 @@
 body {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0;
-    margin-bottom: 40px;
-    background-color: #cc9820;
+    margin: 0;
+    background-color: #F8B71D;
+    background-image: linear-gradient( 
+        rgb(0, 0, 0, 0.1),
+        rgba(0, 0, 0)),
+        url(https://img.freepik.com/free-photo/cardboard-wallpaper-template_1194-6785.jpg);
     font-family: benguiat;
-    height: 100%;
+    height: 100vh;
     font-weight: bold;
-    font-size: 400%;
-    color: #222222;
+    font-size: 250%;
+    color: #F8B71D;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 5px;
-    height: 1vh;
     text-align: center;
 }
 
 header {
-   
+   background-color: #000000;
 }
 
 footer {
@@ -27,6 +27,7 @@ footer {
     color: rgba(240, 255, 255, 0.442);
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: auto;
 }
 
 img {
@@ -35,29 +36,21 @@ img {
 }
 
 a {
-    margin-top: 1px;
-    font-size: 20%;
-    margin-bottom: 1px;
-    background-color: #000000;
+    margin: 3px 0;
+    font-size: 10%;
     color: #000000;
-    padding-top: 0px;
-    padding-bottom: 3px;
-    
+    padding: 0;
 }
 
 p {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: rgb(195, 24, 29);
-}
-
-.By {
-    font-size: 60%;
-    margin-left: -15px;
+    margin: 10px 0;
+    color: #F8B71D;
+    text-align: left;
+    margin-left: 10px;
 }
 
 main {
-    padding: 10px 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,19 +59,11 @@ main {
 }
 
 #contenedor-posters {
-    margin-top: 30px;
+    margin: 30px 0 2px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 2px;
     gap: 30px;
-}
-
-.vhs {
-    background-image: url(https://png.pngtree.com/png-clipart/20220924/ourmid/pngtree-film-grain-particles-texture-effect-png-image_6214662.png);
-    background-position: center;
-    background-color: #cc9820;
 }
 
 .vhs img {
@@ -86,27 +71,27 @@ main {
     border-radius: 8px;
     border: 2px solid #000000;
     background-repeat: no-repeat;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+    filter: brightness(0.6); 
 }
 
 .vhs img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
+    filter: brightness(0.8); 
 }
 
-#default {
-    display: flex;
-    justify-content: left;
-    text-align: right;
-}
 
 .dogs {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     color: #222222;
-    font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     text-align: center;
 }
 
+.dogs a{     
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
 .dogs img {
     max-width: 400px;
     max-height: 400px;
@@ -120,5 +105,42 @@ main {
 .back img {
     max-width: 100px;
     max-height: 100px;
+}
+
+.first {
+    text-align: center;
+    color: brown;
+    font-size: 300%;
+}
+
+.vhs-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: benguiat;
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.vhs-button:hover {
+    background-color: #444444;
+}
+
+.intro{
+    font-size: 50%;
+}
+
+.description{
+    text-align: center;
+    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo {
+    margin-top: -50px; 
+    max-width: 400px;
+    max-height: 400px;
 }
 
