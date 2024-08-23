@@ -26,10 +26,10 @@ header {
     height: 25px;
     border-radius: 100%;
     padding: auto;
-    margin-right: 24px;
+    margin-right: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-
+    padding: 5px;
 }
 
 .home{text-align: right;}
